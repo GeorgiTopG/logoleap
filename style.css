@@ -6,7 +6,7 @@ html {
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  color: #fff;
+  color: #ffffff;
   background: linear-gradient(-45deg, #12111f, #1f1c2c, #12111f, #1f1c2c);
   background-size: 400% 400%;
   animation: gradientBG 30s ease infinite;
@@ -82,10 +82,11 @@ body {
 }
 
 .hero h1 {
+  color: #e49a84;
   font-size: 2.5rem;
   margin-bottom: 20px;
   line-height: 1.2;
-  text-shadow: 0 0 10px rgba(0,242,254,0.5);
+  text-shadow: 0 0 10px #ff5722
 }
 
 .hero p {
@@ -98,7 +99,7 @@ body {
   display: inline-block;
   padding: 18px 40px;
   background: #ff5722;
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
   font-size: 1.1rem;
   text-decoration: none;
@@ -111,7 +112,7 @@ body {
 .cta-button:hover {
   transform: translateY(-3px) scale(1.05);
   background: #e64a19;
-  box-shadow: 0 0 10px rgba(255,87,34,0.7);
+  box-shadow: 0 0 5px rgba(255,87,34,0.7);
 }
 
 /* ===== Glass Sections ===== */
@@ -127,9 +128,10 @@ section.glass {
 }
 
 section h2 {
+  color: #e49a84;
   font-size: 2rem;
   margin-bottom: 20px;
-  text-shadow: 0 0 5px rgba(11, 238, 250, 0.5);
+  text-shadow: 0 0 5px #ff5722;
 }
 
 section p {
