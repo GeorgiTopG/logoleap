@@ -229,7 +229,7 @@ footer {
   margin-top: 40px;
 }
 
-/* ===== Responsive ===== */
+ /* ===== Responsive ===== */
 @media (max-width: 900px) {
   .hero h1 { font-size: 1.7rem; }
   .hero p { font-size: 0.95rem; margin-bottom: 20px; }
@@ -241,10 +241,24 @@ footer {
 }
 
 @media (max-width: 600px) {
+  /* Stack feature cards vertically */
+  .features {
+    grid-template-columns: 1fr;
+  }
+  .features .feature-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  /* Remove hover effect on mobile */
+  .features .feature-card:hover {
+    transform: none;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  }
+
   .hero h1 { font-size: 1.7rem; }
   .hero p { font-size: 0.95rem; margin-bottom: 20px; }
   .cta-button { padding: 10px 20px; font-size: 0.95rem; }
-  .features .feature-card { width: 90%; padding: 16px; }
   .gig-card { padding: 18px; }
   section.glass { margin: 30px 15px; padding: 30px 15px; border-radius: 18px; }
   footer { padding: 18px; font-size: 0.85rem; }
