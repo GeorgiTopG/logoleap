@@ -82,12 +82,11 @@ body {
 }
 
 .hero h1 {
-  color: #e49a84;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  line-height: 1.2;
-  text-shadow: 0 0 10px #ff5722
-}
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-shadow: 0 0 10px rgba(0, 242, 254, 0.5)
+    };
 
 .hero p {
   font-size: 1.2rem;
@@ -128,10 +127,9 @@ section.glass {
 }
 
 section h2 {
-  color: #e49a84;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  text-shadow: 0 0 5px #ff5722;
+font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(11, 238, 250, 0.5);
 }
 
 section p {
@@ -233,14 +231,13 @@ footer {
 
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
-  .hero h1 { font-size: 2rem; }
-  .hero p { font-size: 1rem; margin-bottom: 25px; }
-  .cta-button { padding: 12px 25px; font-size: 1rem; }
-  .features { gap: 20px; justify-content: center; }
-  .features .feature-card { width: 48%; padding: 18px; }
-  .gig-card { padding: 22px; }
-  section.glass { margin: 40px 20px; padding: 40px 20px; border-radius: 20px; }
-  footer { padding: 22px; }
+  .hero h1 { font-size: 1.7rem; }
+  .hero p { font-size: 0.95rem; margin-bottom: 20px; }
+  .cta-button { padding: 10px 20px; font-size: 0.95rem; }
+  .features .feature-card { width: 90%; padding: 16px; }
+  .gig-card { padding: 18px; }
+  section.glass { margin: 30px 15px; padding: 30px 15px; border-radius: 18px; }
+  footer { padding: 18px; font-size: 0.85rem; }
 }
 
 @media (max-width: 600px) {
@@ -254,11 +251,11 @@ footer {
 }
 
 @media (max-width: 400px) {
-  .hero h1 { font-size: 1.5rem; }
-  .hero p { font-size: 0.9rem; }
-  .cta-button { padding: 8px 18px; font-size: 0.9rem; }
-  .features .feature-card { width: 95%; padding: 14px; }
-  .gig-card { padding: 16px; }
-  section.glass { margin: 25px 10px; padding: 25px 10px; border-radius: 15px; }
-  footer { padding: 16px; font-size: 0.8rem; }
+  .hero h1 { font-size: 1.7rem; }
+  .hero p { font-size: 0.95rem; margin-bottom: 20px; }
+  .cta-button { padding: 10px 20px; font-size: 0.95rem; }
+  .features .feature-card { width: 90%; padding: 16px; }
+  .gig-card { padding: 18px; }
+  section.glass { margin: 30px 15px; padding: 30px 15px; border-radius: 18px; }
+  footer { padding: 18px; font-size: 0.85rem; }
 }
